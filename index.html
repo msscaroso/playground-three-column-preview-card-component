@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Three column preview card</title>
+    <style>
+        @import "output.css";
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+    </style>
+</head>
+<body>
+<main class="grid grid-rows-3 md:grid-cols-3 md:h-screen">
+    <div class="bg-orange min-h-[442px] p-12 flex flex-col justify-between md:h-screen">
+        <img class="w-16 h-10" src="assets/icon-sedans.svg" alt="A yellow sedan">
+        <h1 class="font-cursive text-5xl">SEDAN</h1>
+        <div class="text-base max-w-[231px]">
+            Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your
+            next road trip.
+        </div>
+        <div class="
+                bg-white text-base text-orange
+                flex flex-col justify-center items-center
+                max-w-[146px] min-h-[48px] rounded-3xl hover:cursor-pointer">
+            Learn More
+        </div>
+    </div>
+    <div class="bg-blue min-h-[442px] p-12 flex flex-col justify-between md:h-screen">
+        <img class="w-16 h-10" src="assets/icon-suvs.svg" alt="A blue SUV">
+        <h1 class="font-cursive text-5xl">SUVS</h1>
+        <div class="text-base max-w-[231px]">
+            Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and
+            off-road adventures.
+        </div>
+        <div class="
+                bg-white text-base text-blue
+                flex flex-col justify-center items-center
+                max-w-[146px] min-h-[48px] rounded-3xl hover:cursor-pointer
+        ">
+            Learn More
+        </div>
+    </div>
+    <div class="bg-green min-h-[442px] p-12 flex flex-col justify-between md:h-screen">
+        <img class="w-16 h-10" src="assets/icon-luxury.svg" alt="A green luxury car">
+        <h1 class="font-cursive text-5xl">SUVS</h1>
+        <div class="text-base max-w-[231px]">
+            Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and
+            arrive in style.
+        </div>
+        <div class="
+                bg-white text-base text-green
+                flex flex-col justify-center items-center
+                max-w-[146px] min-h-[48px] rounded-3xl hover:cursor-pointer
+        ">
+            Learn More
+        </div>
+    </div>
+</main>
+</body>
+</html>
